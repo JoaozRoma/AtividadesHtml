@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <title></title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>onclick</h1>
+    <button onclick ="carConteudo()">carregar conteudo</button>
+    <p id="conteudo"></p>
+
+
+    <h2>mouseOver  e  onMouseout</h2>
+
+    <div onmouseover="mouseOver()" onmouseout="mouseOut()" class="contPress" id="mouseAlt">passe o mouse</div>
+
+
+    <hr>
+
+    <p id ='errosenha'></p>
+    <form>
+        Nome: <input type="text" name="nome" id="nome" onchange="convertText()"><br><br>
+        Senha: <input type="password" name="senha" id="senha" onkeyup="ValidarSenha()"><br><br>
+    </form>
+
+
+</body>
+</html>
