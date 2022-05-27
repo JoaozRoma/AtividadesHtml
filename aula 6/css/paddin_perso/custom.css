@@ -1,0 +1,36 @@
+body
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+table,th,td 
+{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-style: dashed ;
+}
+table
+{
+    width: 100%;
+}
+th
+{
+    text-align: left;
+    color: #ffffff;
+    background-color: #000;
+    border-style: dashed ;
+}
+.cargo
+{
+    text-align: center;
+}
+.conteudo
+{
+    text-align: right;
+}
+tr
+{
+    background-color: tan;
+    color: blue;
+}

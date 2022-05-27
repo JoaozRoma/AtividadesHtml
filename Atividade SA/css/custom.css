@@ -1,0 +1,136 @@
+body
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+.tudo2 
+{
+    display: inline-block;
+}
+h1
+{
+    color: #eac024;
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center; 
+}
+.logo img
+{
+    float: left;
+    margin-left: 15px 15px;
+    width: 200px;
+    height:200px;
+    
+}
+.all
+{
+    width: 580px;
+    height: 80px;
+    line-height: 35px; /* centraliza na vertical */
+    border: 0px dashed #eac024;
+    margin: 0 auto;
+}
+ul.menu
+{
+    text-align: center; /* centraliza na horizontal */
+}
+ul.menu li    /*button menus*/
+{
+    display: inline-block; /* centraliza na horizontal */
+    margin: 10px 10px;
+}
+ul.menu li a
+{
+    font-family: fantasy;
+    background-color: #eac024;
+    border-radius: 5px;
+    padding: 1px 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+ul.menu li a:hover
+{
+    background-color: #e9d9a1;
+}
+ul.menu
+{
+    text-align: center;
+    font-size: 30px;
+    color: #eac024;
+    background-color: #00000027;
+    margin: 1px 15px;
+    height: 80%;
+    display: inline-block;
+}
+.FOTO img
+{
+    width: 300px;
+    height: 450px;
+    
+}
+
+figure.FOTO
+{
+a
+    font-family: fantasy;
+}
+figure.FOTO
+{
+    
+    width: 300px;
+    height: 450px;
+    
+}
+
+figure.FOTO figcaption 
+{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #eac024;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    height: auto;
+    width: auto; 
+    
+}
+
+figure.FOTO:hover figcaption 
+{
+    opacity: 1;
+}
+main
+{
+
+}
+main,.titulo
+{
+    color: #eac024;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center; 
+    background-color: #e9d9a100;
+}
+main, hr
+{
+    border-color: #eac024;
+}
+.teste, p, img
+{
+    text-align: center;
+    
+}
+.teste/*menus foto mw*/
+{
+ 
+}
+.col
+{
+    float: left;
+    margin: 5px;
+}

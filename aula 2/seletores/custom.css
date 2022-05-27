@@ -1,0 +1,82 @@
+body
+{
+    background-color: #e8e8e8;
+    color: #008;
+
+}
+h1
+{
+    color: rgb(87, 7, 34);
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center; 
+}
+
+a
+{
+    font-size: 20px;
+}
+/*seletor de tipo*/
+p
+{
+    font-size: 30px;
+    color: #000000;
+}
+/*seletor decendentes*/
+p span
+{
+    color: darkmagenta;
+}
+/*seletor pseudo classes*/
+a:hover 
+{
+    color: black;
+    
+}
+/*seletor id*/
+#cabecalho
+{
+    background-color: red;
+    width: 100%;
+    height: 250px;
+}
+
+#menu
+{
+    background-color: #00f;
+    width: 90%;
+    height: 65px;
+    color: #e8e8e8;
+}
+/*seletor de classes*/
+.cont_destaque
+{
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.mais_novo p
+{
+    color: chocolate;
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*seletor universal*/
+*
+{
+    text-align: left;
+    color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+/*seletor de agrupamento*/
+h3,h2
+{
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+}
+
+

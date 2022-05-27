@@ -1,0 +1,109 @@
+body
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-style: dotted;
+    border-color: rgb(226, 43, 43);
+}
+h1
+{
+    color: rgb(139, 15, 15);
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center; 
+}
+ul
+{
+    
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+ul li
+{
+    text-align: center;
+    margin: 5px 900px;
+
+}
+ul li a:link
+{
+    text-decoration: none;
+    font-family: fantasy;
+}
+a:link
+{
+    text-decoration: none;
+    color: darkred;
+    
+}
+/*visitado*/
+a:visited
+{
+    color: rgb(240, 146, 190);
+}
+/*mouse sobre o texto*/
+a:active
+{
+    color: rgb(75, 0, 0);
+}
+
+figure.FOTO
+{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    font-family: fantasy;
+}
+figure.FOTO
+{
+    
+    width: 21%;
+    height: auto;
+    float: left;
+    
+}
+
+figure.FOTO figcaption 
+{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .3);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    height: 100%;
+    width: 100%; 
+    
+}
+
+figure.FOTO:hover figcaption 
+{
+    opacity: 1;
+}
+
+.texto p
+{
+    text-align: justify;
+    margin: 15px 300px;
+}
+section h2
+{
+    text-align: center;
+}
+
+hr
+{
+    border-style: dashed;
+    border-color: rgb(226, 43, 43);
+}
+
+h2
+{
+    color: rgb(139, 15, 15);
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: center;  
+}

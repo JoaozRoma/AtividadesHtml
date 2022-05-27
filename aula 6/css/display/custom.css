@@ -1,0 +1,18 @@
+body
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.paragrafo_2
+{
+    display: none;
+}
+.paragrafo_4
+{
+    visibility: hidden;
+}
+.paragrafo_6
+{
+    display: block;
+}

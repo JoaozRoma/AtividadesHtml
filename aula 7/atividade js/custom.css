@@ -1,0 +1,11 @@
+p
+{
+    text-align: center;
+    border: 2px solid #00f;
+    background: rgb(200, 236, 147);
+    color: #00f;
+    border: black;
+    padding: 3px 10px;
+    display: inline;
+    cursor: pointer;
+}
